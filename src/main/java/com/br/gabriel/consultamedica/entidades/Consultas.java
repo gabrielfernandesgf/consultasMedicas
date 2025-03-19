@@ -84,8 +84,4 @@ public class Consultas {
         AGENDADA, CANCELADA, REALIZADA;
     }
 
-
-
-
-
 }
