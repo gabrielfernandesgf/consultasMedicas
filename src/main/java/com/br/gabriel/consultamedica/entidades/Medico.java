@@ -20,6 +20,9 @@ public class Medico {
     @Column(nullable = false, unique = true)
     private String crm;
 
+    @Version
+    private Integer versao;
+
     public Long getId() {
         return id;
     }
