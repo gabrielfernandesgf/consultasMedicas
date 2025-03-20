@@ -80,7 +80,7 @@ public class Consultas {
         this.paciente = paciente;
     }
 
-    enum StatusConsulta {
+    public enum StatusConsulta {
         AGENDADA, CANCELADA, REALIZADA;
     }
 
