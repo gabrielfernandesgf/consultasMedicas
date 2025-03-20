@@ -25,6 +25,9 @@ public class Pacientes {
     @Column(nullable = false)
     private String telefone;
 
+    @Version
+    private Integer versao;
+
     public Long getId() {
         return id;
     }
